@@ -1,0 +1,54 @@
+let customers=[ 
+{
+    "Name": "Jessica Satcy",
+    "Email": "puppydog1@gmail.com",
+    "Purchases": ["Baseball","Garden Soil","Dog Food"] 
+},
+
+
+ {
+    "Name": "Bob Willis",
+    "Email": "gamerchairdude@icloud.com",
+    "Purchases": ["Onions","Ballons","Bread"] 
+},
+
+ {
+    "Name": "James Adam",
+    "Email": "jamesa123@hotmail.com",
+    "Purchases": ["Pen","Apples","Fries"] 
+}];
+
+undefined
+customers.shift(0)
+{Name: 'Jessica Satcy', Email: 'puppydog1@gmail.com', Purchases: Array(3)}
+customers.push({
+   "Name": "Gumball Dotts",
+   "Email": "waterballons@gmail.com",
+    "Purchases": ["Fish Food","Gift Bags","Sweet Tea"] 
+})
+
+3
+customers[1].Email="jamesbondsbrother@gmail.com"
+
+
+
+'jamesbondsbrother@gmail.com'
+customers[2].Purchases.push("Olives")
+
+
+4
+customers.forEach(customers=> {
+    console.log(`Name: ${customers.Name}`);                                  
+    console.log(`Email: ${customers.Email}`);
+    console.log(`Total Purchases: ${customers.Purchases.length}`) ; 
+});
+VM6190:2 Name: Bob Willis
+VM6190:2 Email: gamerchairdude@icloud.com
+VM6190:3 Total Purchases: 3
+VM6190:2 Name: James Adam
+VM6190:2 Email: jamesbondsbrother@gmail.com
+VM6190:3 Total Purchases: 3
+VM6190:2 Name: Gumball Dotts
+VM6190:2 Email: waterballons@gmail.com
+VM6190:3 Total Purchases: 4
+
